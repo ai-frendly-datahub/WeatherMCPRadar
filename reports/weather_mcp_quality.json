@@ -1,6 +1,6 @@
 {
   "category": "weather_mcp",
-  "generated_at": "2026-05-07T09:34:33.005015+00:00",
+  "generated_at": "2026-05-12T20:28:48.972081+00:00",
   "scope_note": "weather_mcp treats the awesome-mcp-korea section as a T4 community directory seed. Repository metadata, API credential scope, and security context remain separate enrichment layers until archived, license, and advisory fields are collected.",
   "summary": {
     "total_sources": 3,
@@ -99,23 +99,23 @@
       "status": "fresh",
       "article_count": 5,
       "event_count": 5,
-      "latest_event_at": "2026-05-07T09:34:31.144294+00:00",
+      "latest_event_at": "2026-05-12T20:28:48.366135+00:00",
       "age_days": 0.0,
-      "latest_title": "KMA-WEATHER-MCP",
-      "latest_url": "https://github.com/woongaro/KMA-WEATHER-MCP",
+      "latest_title": "mcp-weather-server",
+      "latest_url": "https://github.com/dbsxortime/mcp-weather-server",
       "latest_mcp_domain": [
         "weather",
-        "kma",
         "날씨",
         "기상청",
         "예보"
       ],
       "latest_provider": [
-        "kma",
         "기상청"
       ],
       "latest_capability": [],
-      "latest_risk_scope": [],
+      "latest_risk_scope": [
+        "위치"
+      ],
       "latest_required_field_proxy": {
         "repository": true,
         "source_section": true,
@@ -157,7 +157,7 @@
         "status": "fresh",
         "repository": "woongaro/KMA-WEATHER-MCP",
         "checked_at": "2026-05-07T05:20:56+00:00",
-        "age_days": 0.18,
+        "age_days": 5.63,
         "freshness_sla_days": 7.0,
         "missing_fields": [],
         "github_pushed_at": "2026-01-14T06:59:04Z",
@@ -229,7 +229,7 @@
         "status": "fresh",
         "repository": "ohhan777/korea_weather",
         "checked_at": "2026-05-07T05:20:56+00:00",
-        "age_days": 0.18,
+        "age_days": 5.63,
         "freshness_sla_days": 7.0,
         "missing_fields": [],
         "github_pushed_at": "2026-02-22T02:13:47Z",
@@ -272,39 +272,9 @@
     {
       "source": "awesome-mcp-korea Weather",
       "event_model": "mcp_directory_entry",
-      "title": "KMA-WEATHER-MCP",
-      "url": "https://github.com/woongaro/KMA-WEATHER-MCP",
-      "event_at": "2026-05-07T09:34:31.144294+00:00",
-      "mcp_domain": [
-        "weather",
-        "kma",
-        "날씨",
-        "기상청",
-        "예보"
-      ],
-      "provider": [
-        "kma",
-        "기상청"
-      ],
-      "capability": [],
-      "risk_scope": [],
-      "project_health": [
-        "mcp",
-        "서버",
-        "도구"
-      ],
-      "required_field_proxy": {
-        "repository": true,
-        "source_section": true,
-        "source_url": true
-      }
-    },
-    {
-      "source": "awesome-mcp-korea Weather",
-      "event_model": "mcp_directory_entry",
       "title": "mcp-weather-server",
       "url": "https://github.com/dbsxortime/mcp-weather-server",
-      "event_at": "2026-04-30T08:37:27.368328+00:00",
+      "event_at": "2026-05-12T20:28:48.366135+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -334,7 +304,7 @@
       "event_model": "risk_scope_signal",
       "title": "mcp-weather-server",
       "url": "https://github.com/dbsxortime/mcp-weather-server",
-      "event_at": "2026-04-30T08:37:27.368328+00:00",
+      "event_at": "2026-05-12T20:28:48.366135+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -364,7 +334,7 @@
       "event_model": "mcp_directory_entry",
       "title": "mcp-weather",
       "url": "https://github.com/jikime/mcp-weather",
-      "event_at": "2026-04-30T08:37:27.368326+00:00",
+      "event_at": "2026-05-12T20:28:48.366134+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -393,7 +363,7 @@
       "event_model": "mcp_directory_entry",
       "title": "mcp-get-weather",
       "url": "https://github.com/Kinuk97/mcp-get-weather",
-      "event_at": "2026-04-30T08:37:27.368324+00:00",
+      "event_at": "2026-05-12T20:28:48.366133+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -426,7 +396,7 @@
       "event_model": "risk_scope_signal",
       "title": "mcp-get-weather",
       "url": "https://github.com/Kinuk97/mcp-get-weather",
-      "event_at": "2026-04-30T08:37:27.368324+00:00",
+      "event_at": "2026-05-12T20:28:48.366133+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -459,7 +429,7 @@
       "event_model": "mcp_directory_entry",
       "title": "korea_weather",
       "url": "https://github.com/ohhan777/korea_weather",
-      "event_at": "2026-04-30T08:37:27.368321+00:00",
+      "event_at": "2026-05-12T20:28:48.366130+00:00",
       "mcp_domain": [
         "날씨",
         "기상청",
@@ -473,6 +443,36 @@
       "project_health": [
         "mcp",
         "서버"
+      ],
+      "required_field_proxy": {
+        "repository": true,
+        "source_section": true,
+        "source_url": true
+      }
+    },
+    {
+      "source": "awesome-mcp-korea Weather",
+      "event_model": "mcp_directory_entry",
+      "title": "KMA-WEATHER-MCP",
+      "url": "https://github.com/woongaro/KMA-WEATHER-MCP",
+      "event_at": "2026-05-12T20:28:48.366118+00:00",
+      "mcp_domain": [
+        "weather",
+        "kma",
+        "날씨",
+        "기상청",
+        "예보"
+      ],
+      "provider": [
+        "kma",
+        "기상청"
+      ],
+      "capability": [],
+      "risk_scope": [],
+      "project_health": [
+        "mcp",
+        "서버",
+        "도구"
       ],
       "required_field_proxy": {
         "repository": true,
