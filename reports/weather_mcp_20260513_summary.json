@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-13",
+  "category": "weather_mcp",
+  "article_count": 6,
+  "source_count": 1,
+  "matched_count": 6,
+  "top_entities": [
+    {
+      "name": "MCPDomain",
+      "count": 24
+    },
+    {
+      "name": "ProjectHealth",
+      "count": 16
+    },
+    {
+      "name": "Provider",
+      "count": 7
+    },
+    {
+      "name": "RiskScope",
+      "count": 3
+    },
+    {
+      "name": "Capability",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "awesome-mcp-korea Weather": 6
+  },
+  "generated_at": "2026-05-13T18:56:37.757177+00:00"
+}
