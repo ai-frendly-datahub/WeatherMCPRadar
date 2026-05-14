@@ -1,6 +1,6 @@
 {
   "category": "weather_mcp",
-  "generated_at": "2026-05-14T02:29:41.219818+00:00",
+  "generated_at": "2026-05-14T07:47:52.703348+00:00",
   "scope_note": "weather_mcp treats the awesome-mcp-korea section as a T4 community directory seed. Repository metadata, API credential scope, and security context remain separate enrichment layers until archived, license, and advisory fields are collected.",
   "summary": {
     "total_sources": 3,
@@ -29,11 +29,11 @@
     "env_preflight_not_required_source_count": 0,
     "repository_metadata_complete_source_count": 2,
     "repository_metadata_gap_count": 0,
-    "repository_metadata_fresh_source_count": 2,
-    "repository_metadata_stale_source_count": 0,
+    "repository_metadata_fresh_source_count": 0,
+    "repository_metadata_stale_source_count": 2,
     "repository_metadata_incomplete_source_count": 0,
     "repository_metadata_missing_checked_at_source_count": 0,
-    "repository_metadata_review_required_count": 0,
+    "repository_metadata_review_required_count": 2,
     "repository_docs_present_source_count": 2,
     "repository_docs_missing_source_count": 0,
     "repository_security_policy_present_source_count": 0,
@@ -58,7 +58,7 @@
     "activation_real_transport_required_source_count": 2,
     "activation_runtime_review_required_source_count": 0,
     "activation_ready_for_fake_transport_source_count": 0,
-    "daily_review_item_count": 4,
+    "daily_review_item_count": 6,
     "mcp_directory_entry_events": 6,
     "mcp_tool_result_events": 0,
     "linked_repository_metadata_events": 2,
@@ -99,7 +99,7 @@
       "status": "fresh",
       "article_count": 6,
       "event_count": 6,
-      "latest_event_at": "2026-05-14T02:29:40.621721+00:00",
+      "latest_event_at": "2026-05-14T07:47:52.091094+00:00",
       "age_days": 0.0,
       "latest_title": "mcp-weather-server",
       "latest_url": "https://github.com/dbsxortime/mcp-weather-server",
@@ -154,10 +154,10 @@
       ],
       "repository_metadata_gaps": [],
       "repository_metadata": {
-        "status": "fresh",
+        "status": "stale",
         "repository": "woongaro/KMA-WEATHER-MCP",
         "checked_at": "2026-05-07T05:20:56+00:00",
-        "age_days": 6.88,
+        "age_days": 7.1,
         "freshness_sla_days": 7.0,
         "missing_fields": [],
         "github_pushed_at": "2026-01-14T06:59:04Z",
@@ -226,10 +226,10 @@
       ],
       "repository_metadata_gaps": [],
       "repository_metadata": {
-        "status": "fresh",
+        "status": "stale",
         "repository": "ohhan777/korea_weather",
         "checked_at": "2026-05-07T05:20:56+00:00",
-        "age_days": 6.88,
+        "age_days": 7.1,
         "freshness_sla_days": 7.0,
         "missing_fields": [],
         "github_pushed_at": "2026-02-22T02:13:47Z",
@@ -274,7 +274,7 @@
       "event_model": "mcp_directory_entry",
       "title": "mcp-weather-server",
       "url": "https://github.com/dbsxortime/mcp-weather-server",
-      "event_at": "2026-05-14T02:29:40.621721+00:00",
+      "event_at": "2026-05-14T07:47:52.091094+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -304,7 +304,7 @@
       "event_model": "risk_scope_signal",
       "title": "mcp-weather-server",
       "url": "https://github.com/dbsxortime/mcp-weather-server",
-      "event_at": "2026-05-14T02:29:40.621721+00:00",
+      "event_at": "2026-05-14T07:47:52.091094+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -334,7 +334,7 @@
       "event_model": "mcp_directory_entry",
       "title": "mcp-weather",
       "url": "https://github.com/jikime/mcp-weather",
-      "event_at": "2026-05-14T02:29:40.621720+00:00",
+      "event_at": "2026-05-14T07:47:52.091093+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -363,7 +363,7 @@
       "event_model": "mcp_directory_entry",
       "title": "mcp-get-weather",
       "url": "https://github.com/Kinuk97/mcp-get-weather",
-      "event_at": "2026-05-14T02:29:40.621719+00:00",
+      "event_at": "2026-05-14T07:47:52.091092+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -396,7 +396,7 @@
       "event_model": "risk_scope_signal",
       "title": "mcp-get-weather",
       "url": "https://github.com/Kinuk97/mcp-get-weather",
-      "event_at": "2026-05-14T02:29:40.621719+00:00",
+      "event_at": "2026-05-14T07:47:52.091092+00:00",
       "mcp_domain": [
         "weather",
         "날씨",
@@ -429,7 +429,7 @@
       "event_model": "mcp_directory_entry",
       "title": "korea-weather-mcp",
       "url": "https://github.com/worker-ants/korea-weather-mcp",
-      "event_at": "2026-05-14T02:29:40.621717+00:00",
+      "event_at": "2026-05-14T07:47:52.091090+00:00",
       "mcp_domain": [
         "weather",
         "기상청",
@@ -458,7 +458,7 @@
       "event_model": "risk_scope_signal",
       "title": "korea-weather-mcp",
       "url": "https://github.com/worker-ants/korea-weather-mcp",
-      "event_at": "2026-05-14T02:29:40.621717+00:00",
+      "event_at": "2026-05-14T07:47:52.091090+00:00",
       "mcp_domain": [
         "weather",
         "기상청",
@@ -487,7 +487,7 @@
       "event_model": "mcp_directory_entry",
       "title": "korea_weather",
       "url": "https://github.com/ohhan777/korea_weather",
-      "event_at": "2026-05-14T02:29:40.621715+00:00",
+      "event_at": "2026-05-14T07:47:52.091088+00:00",
       "mcp_domain": [
         "날씨",
         "기상청",
@@ -513,7 +513,7 @@
       "event_model": "mcp_directory_entry",
       "title": "KMA-WEATHER-MCP",
       "url": "https://github.com/woongaro/KMA-WEATHER-MCP",
-      "event_at": "2026-05-14T02:29:40.621701+00:00",
+      "event_at": "2026-05-14T07:47:52.091072+00:00",
       "mcp_domain": [
         "weather",
         "kma",
@@ -557,7 +557,7 @@
         "security_advisory_check": true
       },
       "repository": "woongaro/KMA-WEATHER-MCP",
-      "repository_metadata_status": "fresh",
+      "repository_metadata_status": "stale",
       "repository_metadata_checked_at": "2026-05-07T05:20:56+00:00",
       "github_pushed_at": "2026-01-14T06:59:04Z",
       "github_license": "NOASSERTION",
@@ -591,7 +591,7 @@
         "security_advisory_check": true
       },
       "repository": "ohhan777/korea_weather",
-      "repository_metadata_status": "fresh",
+      "repository_metadata_status": "stale",
       "repository_metadata_checked_at": "2026-05-07T05:20:56+00:00",
       "github_pushed_at": "2026-02-22T02:13:47Z",
       "github_license": "NOASSERTION",
@@ -627,6 +627,14 @@
       ]
     },
     {
+      "reason": "repository_metadata_stale",
+      "source": "woongaro/KMA-WEATHER-MCP",
+      "repository": "woongaro/KMA-WEATHER-MCP",
+      "checked_at": "2026-05-07T05:20:56+00:00",
+      "age_days": 7.1,
+      "freshness_sla_days": 7.0
+    },
+    {
       "reason": "mcp_env_preflight_missing",
       "source": "ohhan777/korea_weather",
       "repository": "ohhan777/korea_weather",
@@ -643,6 +651,14 @@
       "activation_gates": [
         "real_transport_smoke_test_required"
       ]
+    },
+    {
+      "reason": "repository_metadata_stale",
+      "source": "ohhan777/korea_weather",
+      "repository": "ohhan777/korea_weather",
+      "checked_at": "2026-05-07T05:20:56+00:00",
+      "age_days": 7.1,
+      "freshness_sla_days": 7.0
     }
   ],
   "source_backlog": {
